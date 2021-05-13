@@ -3,7 +3,7 @@
 	<!-- insert your AIML categories here -->
 	
 	<category>
-	    <pattern>VAMOS CONVERSAR SOBRE FUTEBOL</pattern>
+	    <pattern>PERGUNTA ALGUMA COISA AI</pattern>
 	    <template>
 	    <random>
 	        <li>Neymar</li>
@@ -23,5 +23,23 @@
 	    <that>* É O MELHOR JOGADOR ATUALMENTE</that>
 	    <pattern>SIM</pattern>
 	    <template>provavelmente você está certo.</template>
+	</category>
+	
+	<category>
+	    <pattern>PERGUNTA OUTRA COISA</pattern>
+	    <template>Qual o melhor time pra você?</template>
+	</category>
+	
+	<category>
+	    <that>QUAL O MELHOR TIME PRA VOCÊ</that>
+	    <pattern>*</pattern>
+	    <template><think><set name="timeC"><star/></set></think>
+	    <condition name="timeC">
+	        <li value="flamengo"><br/>Esse é o maior do Brasil!!</li>
+	        <li value="Palmeira"><br/>Esse não tem copinha e não tem mundial</li>
+	        <li><br/>Isso nem pode ser chamado de time!</li>
+	        
+	    </condition>
+	    </template>
 	</category>
 </aiml>

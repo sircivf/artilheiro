@@ -2,6 +2,22 @@
 <aiml version="2.0">
 	<!-- insert your AIML categories here -->
 	
+	
+	<category>
+	    <pattern>OLA</pattern>
+	    <template>Fala ai sem futuro, Meu nome é <bot name="name"/> e o seu?</template>
+	</category>
+	
+	<category>
+	    <pattern>MEU NOME E *</pattern>
+	    <template>Satisfação te conhecer <set name="nomeC"><star/></set></template>
+	</category>
+	
+	<category>
+	   <pattern>BORA COMEÇAR</pattern>
+	   <template>Bora! O que você quer saber sobre futebol?</template>
+	</category>
+	
 	<category>
 	    <pattern>QUAL SEU NOME</pattern>
 	    <template>Meu Nome é <bot name="name"/></template>
