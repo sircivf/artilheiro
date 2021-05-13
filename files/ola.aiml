@@ -5,7 +5,9 @@
 	
 	<category>
 	    <pattern>OLA</pattern>
-	    <template>Fala ai sem futuro, Meu nome é <bot name="name"/> e o seu?</template>
+	    <template>Fala ai sem futuro,<br/>
+	              meu nome é <bot name="name"/> e eu sou um bot sabe tudo de futebol,
+	              qual o seu nome?</template>
 	</category>
 	
 	<category>
@@ -14,8 +16,8 @@
 	</category>
 	
 	<category>
-	   <pattern>BORA COMEÇAR</pattern>
-	   <template>Bora! O que você quer saber sobre futebol?</template>
+	   <pattern>BORA COMEÇAR A FALAR SOBRE FUTEBOL</pattern>
+	   <template>Bora! O que você quer saber?</template>
 	</category>
 	
 	<category>
@@ -29,7 +31,7 @@
 	</category>
 	
 	<category>
-	    <pattern>PRA QUAL TIME VOCÊ TORCE</pattern>
+	    <pattern>PRA QUAL TIME VOCÊ TORCE *</pattern>
 	    <template>Torço pro <bot name="time"/> e voce?</template>
 	</category>
 	

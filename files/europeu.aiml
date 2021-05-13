@@ -3,9 +3,17 @@
 	<!-- insert your AIML categories here -->
 	
 	<category>
-	    <pattern>* MAIOR TIME EUROPEU</pattern>
-	    <template>É logico que é o Real Madrid!</template>
+	    <pattern>* FUTEBOL EUROPEU</pattern>
+	    <template>Bora! pode perguntar ai o que voce quer saber</template>
 	</category>
+	
+	<category>
+	    <pattern>* ANO QUE COMEÇOU ^</pattern>
+	    <template>A champions começou em 4 de setembro de 1955.
+	              Sendo o Real Madrid o campeão desse edição
+	    </template>
+	</category>
+	
 	
 	<category>
 	    <pattern>* MAIS TITULOS DA CHAMPIONS</pattern>
@@ -22,12 +30,11 @@
 	    </template>
 	</category>
 	
-	<category>
-	    <pattern>* ANO QUE COMEÇOU</pattern>
-	    <template>A champions começou em 4 de setembro de 1955.
-	              Sendo o Real Madrid o campeão desse edição
-	    </template>
+		<category>
+	    <pattern>* MAIOR TIME EUROPEU</pattern>
+	    <template>É logico que é o Real Madrid!</template>
 	</category>
+	
 	
 	<category>
 	    <pattern>* BRASILEIRO TEM MAIS TITULOS DA CHAMPIONS</pattern>
