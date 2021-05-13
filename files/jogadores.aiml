@@ -9,8 +9,24 @@
 	
 	<category>
 	    <pattern>pergunte sobre jogadores</pattern>
-	    <template></template>
+	    <template>qual é o maior de todos os tempos?</template>
 	</category>
 	
+	<category>
+	    <that>QUAL É O MAIOR DE TODOS OS TEMPOS</that>
+	    <pattern>*</pattern>
+	    <template><think><set name="jogadorC"><star/></set></think>
+	    <condition name="jogadorC">
+	        <li value="pelé"><br/>Esse com certeza é o maior de todos os tempos</li>
+	        <li value="maradona"><br/>Ta doido! Jogou muito mas não chega aos pés do pelé.</li>
+	        <li value="messi"><br/>Esse pode ser o melhor da atualidade</li>
+	        <li value="ronaldinho"><br/>O bruxo era magico, mas a pergunta é sobre o maior de todos os tempos.</li>
+	        <li value="ronaldo"><br/>O apelido ja diz né, Fenomeno!</li>
+	        <li value="cristiano ronaldo"><br/>Robozão é brabo mas nao o maior de todos os tempos.</li>
+	        <li value="neymar"><br/>Mas é nunca !</li>
+	        <li>Não era pra perguntar sobre jogadores? Esse com certeza não é um!</li>
+	    </condition>
+	    </template>
+	</category>
 	
 </aiml>

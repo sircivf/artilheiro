@@ -26,6 +26,10 @@
 	</category>
 	
 	<category>
+	    <pattern></pattern>
+	</category>
+	
+	<category>
 	    <pattern>PERGUNTA OUTRA COISA</pattern>
 	    <template>Qual o melhor time pra você?</template>
 	</category>
@@ -36,9 +40,8 @@
 	    <template><think><set name="timeC"><star/></set></think>
 	    <condition name="timeC">
 	        <li value="flamengo"><br/>Esse é o maior do Brasil!!</li>
-	        <li value="Palmeira"><br/>Esse não tem copinha e não tem mundial</li>
+	        <li value="palmeiras"><br/>Esse não tem copinha e não tem mundial</li>
 	        <li><br/>Isso nem pode ser chamado de time!</li>
-	        
 	    </condition>
 	    </template>
 	</category>

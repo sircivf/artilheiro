@@ -30,6 +30,27 @@
 	
 	<category>
 	    <pattern>PRA QUAL TIME VOCÊ TORCE</pattern>
-	    <template>Torço pro <bot name="time"/></template>
+	    <template>Torço pro <bot name="time"/> e voce?</template>
 	</category>
+	
+	<category>
+	    <that>TORÇO PRO * E VOCE</that>
+	    <pattern>*</pattern>
+	    <template><think><set name="timeC"><star/></set></think>
+	    <condition name="timeC">
+	        <li value="goias"><br/>Então você é moxezinho</li>
+	        <li value="vila nova"><br/>Fala panetone</li>
+	        <li value="atletico goianiense"><br/>Vai pra cima deles Dragão!!</li>
+	        <li value="flamengo"><br/>Faz parte da maior torcida do Brasil</li>
+	        <li value="corinthians"><br/>Mais do bando de loucos!</li>
+	        <li value="sao paulo"><br/>Eai Bambi</li>
+	        <li value="palmeiras"><br/>não tem copinha nem mundial!</li>
+	        <li>Não conheço.</li>
+	    </condition>
+	    
+	        
+	    </template>
+	</category>
+	
+	
 </aiml>
