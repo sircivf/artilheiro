@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>VAMOS CONVERSAR SOBRE FUTEBOL</pattern>
+	    <template>
+	    <random>
+	        <li>Neymar</li>
+	        <li>Lewandowski</li>
+	        <li>Messi</li>
+	        <li>Cristiano Ronaldo</li>
+	        </random> É o melhor jogador atualmente?</template>
+	</category>
+	
+	<category>
+	    <that>* É O MELHOR JOGADOR ATUALMENTE</that>
+	    <pattern>NÃO</pattern>
+	    <template>Sei não em, acho que você não entende de futebol.</template>
+	</category>
+	
+	<category>
+	    <that>* É O MELHOR JOGADOR ATUALMENTE</that>
+	    <pattern>SIM</pattern>
+	    <template>provavelmente você está certo.</template>
+	</category>
+</aiml>

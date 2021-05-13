@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>* MELHOR JOGADOR DA HISTORIA</pattern>
+	    <template>Pelé é o melhor de todos os tempos!</template>
+	</category>
+	
+	<category>
+	    <pattern>pergunte sobre jogadores</pattern>
+	    <template></template>
+	</category>
+	
+	
+</aiml>

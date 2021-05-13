@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>QUAL SEU NOME</pattern>
+	    <template>Meu Nome é <bot name="name"/></template>
+	</category>
+	
+	<category>
+	    <pattern>QUAL A SUA IDADE</pattern>
+	    <template>Tenho <bot name="idade"/> anos</template>
+	</category>
+	
+	<category>
+	    <pattern>PRA QUAL TIME VOCÊ TORCE</pattern>
+	    <template>Torço pro <bot name="time"/></template>
+	</category>
+</aiml>

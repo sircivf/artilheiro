@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>* MAIOR TIME EUROPEU</pattern>
+	    <template>É logico que é o Real Madrid!</template>
+	</category>
+	
+	<category>
+	    <pattern>* MAIS TITULOS DA CHAMPIONS</pattern>
+	    <template>Real Madrid com 13 titulos</template>
+	</category>
+	
+	<category>
+	    <pattern>* RANKING DA CHAMPIONS</pattern>
+	    <template>Vixi, são muitos times. Vou falar so dos 5 primeiros!<br/>
+	              Real Madrid - 13<br/>
+	              Milan - 7 <br/>
+	              Bayer de Munique e Liverpool - 6<br/>
+	              Barcelona - 5<br/>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* ANO QUE COMEÇOU</pattern>
+	    <template>A champions começou em 4 de setembro de 1955.
+	              Sendo o Real Madrid o campeão desse edição
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* BRASILEIRO TEM MAIS TITULOS DA CHAMPIONS</pattern>
+	    <template>Casemiro e Marcelo são os brasileiros com mais titulos, 
+	              sendo 4 titulos para cada (2014,2016,2017,2018)
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* MAIOR ARTILHEIRO DA CHAMPIONS</pattern>
+	    <template>Cristiano Ronaldo é o jogador com mais gols pela champions, 130 ao total.
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* BRASILEIRO COM MAIS GOLS NA CHAMPIONS</pattern>
+	    <template>Neymar é o brasileiro com mais gols, 41 gols e contando!</template>
+	</category>
+</aiml>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template><random>
+        <li>Acho que você não esta falando sobre futebol!</li>
+        <li>Você esta falando de uma maneira burra</li>
+        <li>Do you speak portuguese?</li>
+    </random></template>
+  </category>
+</aiml>
